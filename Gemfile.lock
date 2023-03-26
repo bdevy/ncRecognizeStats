@@ -1,0 +1,35 @@
+PATH
+  remote: .
+  specs:
+    ncRecognizeStats (0.1.0)
+      optimist
+      ruby-mysql
+      zabbix_sender_api
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (11.1.3)
+    coderay (1.1.3)
+    method_source (1.0.0)
+    optimist (3.0.1)
+    pry (0.14.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    pry-byebug (3.10.1)
+      byebug (~> 11.0)
+      pry (>= 0.13, < 0.15)
+    rake (13.0.6)
+    ruby-mysql (4.0.0)
+    zabbix_sender_api (1.1.3)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  ncRecognizeStats!
+  pry-byebug
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.4.2
